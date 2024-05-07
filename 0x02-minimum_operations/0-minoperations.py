@@ -20,12 +20,10 @@ def is_prime(num):
         0 if number is prime.
         1 if number is NOT prime.
     """
-    number_to_check: int = num
+    number_to_check = num
     for x in range(2, num + 1):
         if number_to_check % x == 0 and x != number_to_check:
-            # print(f"Number: {number_to_check} is NOT prime")
             return 1
-    # print(f"Number: {number_to_check} is prime")
     return 0
 
 

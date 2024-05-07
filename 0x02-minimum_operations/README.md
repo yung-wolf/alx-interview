@@ -13,5 +13,8 @@ H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Pa
 Number of operations: 6
 ```
 
+## Environment
+- Files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.3)
+
 ## Author
 yung-wolf (Eli Bansah)
