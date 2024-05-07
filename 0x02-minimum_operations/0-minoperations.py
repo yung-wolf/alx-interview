@@ -40,6 +40,10 @@ def minOperations(num):
     number_to_get_factors = num
     prime_factors = []
 
+    # if n char is impossible to achieve, return 0
+    if num <= 0:
+        return 0
+
     # If the number is prime, return a list with 1 and the number itself
     check = is_prime(num)
     if check == 0:
