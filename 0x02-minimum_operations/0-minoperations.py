@@ -43,7 +43,6 @@ def minOperations(num):
     # If the number is prime, return a list with 1 and the number itself
     check = is_prime(num)
     if check == 0:
-        prime_factors.append(1)
         prime_factors.append(num)
         return prime_factors
 
