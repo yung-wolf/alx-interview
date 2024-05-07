@@ -27,14 +27,14 @@ def is_prime(num):
     return 0
 
 
-def get_prime_factors(num):
+def minOperations(num):
     """
-    Calculates the prime factors of a given number.
+    Calculates the minimum operations of a given number.
 
-    :param num: The number to calculate the prime factors of.
+    :param num: The number to calculate the minimum operations of.
     :type num: int
-    :return: A list of prime factors.
-    :rtype: list[int]
+    :return: Sum of prime factors.
+    :rtype: int
     """
     # Initialize variables for the function
     number_to_get_factors = num
