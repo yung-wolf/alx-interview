@@ -1,4 +1,4 @@
-#!/usr/bin/ python3
+#!/usr/bin/python3
 
 """
 module: 0-rotate_2d_matrix
